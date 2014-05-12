@@ -1,0 +1,22 @@
+.wrapper {
+  background: url(../images/me.jpg);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.4);
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.box h1 {
+  color: white;
+}
