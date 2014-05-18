@@ -11,7 +11,7 @@ li span.fa {
   margin-right: 10px;
 }
 
-.wrapper {
+body {
   background: url(../images/me.jpg);
   position: fixed;
   left: 0;
