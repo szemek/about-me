@@ -21,7 +21,7 @@ li span.fa {
 }
 
 .box {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   width: 600px;
   height: 500px;
   border-radius: 10px;
@@ -29,7 +29,8 @@ li span.fa {
   margin-top: 50px;
   margin-right: 50px;
   padding: 20px;
-  color: black;
+  color: #eeeeee;
+  font-size: 120%;
 }
 
 .box h1 {
@@ -40,12 +41,32 @@ li span.fa {
   font-family: Arial;
 }
 
+.webmuses {
+  color: #1cbcaf;
+  text-decoration: none;
+  background: black;
+  padding: 2px;
+  border-radius: 5px;
+}
+
 footer {
   position: fixed;
   bottom: 0;
   left: 0;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.4);
-  color: black;
+  background: rgba(0, 0, 0, 0.5);
+  color: #eeeeee;
   border-top-right-radius: 10px;
+  font-family: Arial;
+}
+
+.social a {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  -webkit-filter: brightness(75%);
+}
+
+.social a:hover {
+  -webkit-filter: brightness(100%);
 }
